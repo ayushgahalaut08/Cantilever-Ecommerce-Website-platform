@@ -8,12 +8,12 @@ function reload() {
 const products = [
   {
     id: 1,
-    title: "CHOCOLATE MILK",
+    title: "CHOCOLATE CARAMEL",
     price: 10,
     colors: [
       {
         code: "lightgray",
-        img: "./New img/Product 1.png",
+        img: "./New img/CHOCOLATE CARAMEL 2.png",
       },
       {
         code: "lightgray",
@@ -28,7 +28,7 @@ const products = [
     colors: [
       {
         code: "lightgray",
-        img: "./New img/Product 2.png",
+        img: "./New img/TOFFEE CARAMEL 2.png",
       },
       {
         code: "lightgray",
@@ -43,7 +43,7 @@ const products = [
     colors: [
       {
         code: "lightgray",
-        img: "./New img/Product 3.png",
+        img: "./New img/COFFEE FRAPPE 2.png",
       },
       {
         code: "lightgray",
@@ -58,7 +58,7 @@ const products = [
     colors: [
       {
         code: "lightgray",
-        img: "./New img/Product 4.png",
+        img: "./New img/HAZELNUT CHOCOLATE 2.png",
       },
       {
         code: "lightgray",

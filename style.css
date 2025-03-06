@@ -32,7 +32,7 @@ html {
     font-size: 20px;
     border-bottom: 2px solid rgb(0, 201, 0);
     cursor: pointer;
-    color:rgba(0, 0, 0, 0.3);
+    color: gray;
   }
   
   .navBottom {
@@ -45,12 +45,12 @@ html {
   .menuItem {
     margin-right: 50px;
     cursor: pointer;
-    color: rgb(211, 211, 211);
+    color: gray;
     font-weight: 400;
   }
   
   .slider {
-    background: url("New img/Product Background.jpeg");
+    background: url("New img/b.png");
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
     overflow: hidden;
   }
@@ -90,6 +90,7 @@ html {
     text-align: center;
     color: white;
     z-index: 1;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Add shadow to text */
   }
   .buyButton {
     position: absolute;
@@ -102,6 +103,7 @@ html {
     background-color: black;
     z-index: 1;
     cursor: pointer;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Add shadow to the button */
   }
   
   .buyButton:hover {
@@ -110,16 +112,16 @@ html {
   }
   
   .sliderItem:nth-child(1) .sliderBg {
-    background-color: #F8E0DE;
+    background-color: #210602;
   }
   .sliderItem:nth-child(2) .sliderBg {
-    background-color: #C35525;
+    background-color: #D5A46B;
   }
   .sliderItem:nth-child(3) .sliderBg {
-    background-color: #926041;
+    background-color: #110303;
   }
   .sliderItem:nth-child(4) .sliderBg {
-    background-color: #F7EFCF;
+    background-color: #DEC9BE;
   }
   .sliderItem:nth-child(5) .sliderBg {
     background-color: rgb(124, 115, 80);
@@ -332,7 +334,7 @@ html {
   
   .nsItem {
     flex: 1;
-    background-color: #F9C9DB;
+    background-color: #210602;
     color: white;
     display: flex;
     flex-direction: column;
